@@ -5,7 +5,7 @@ A challenge entry for CenturyLink, written in Golang.
 ## Requirements:
 - Golang >1.8
 
-This uses no additional packages to what is provided in Golang.  
+There are no additional packages used, only what comes with Golang.  
 
 Please clone the project to:
 `$GOPATH/src/github.com/grimthereaper/gitgazer`
