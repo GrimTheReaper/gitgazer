@@ -96,7 +96,7 @@ func GetRepositoriesRecursive(login string) (user User, err error) {
 }
 
 func recurseGetRepositories(user User, depth int) (repositories []Repository, err error) {
-	if depth >= followerdepth {
+	if depth >= repositorydepth {
 		return nil, err
 	}
 
