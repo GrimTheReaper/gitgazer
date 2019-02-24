@@ -22,6 +22,12 @@ You can do that by following [this guide](https://help.github.com/en/articles/cr
 
 ## Running:
 
+Please navigate to the `cmd` folder to run this application. For organizational
+purposes, `main.go` was put there.
+
+
+Command Structure:
+
 | Command | Type   | Default | Description                                            |
 |---------|--------|---------|--------------------------------------------------------|
 | buffer  | bool   | `true`  | Whether or not to buffer results from github           |
