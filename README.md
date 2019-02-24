@@ -22,13 +22,12 @@ You can do that by following [this guide](https://help.github.com/en/articles/cr
 
 ## Running:
 
-CommandLine Arguments
-| Command | Type | Default | Description |
-| ------- | ---- | ------- | ----------- |
-| buffer | bool | `true` | Whether or not to buffer results from github |
-| host | string | empty | What host to bind the application to |
-| port | int | `8080` | What port to bind the application to |
-| token | string | empty | What github personal access token to use (RECOMMENDED) |
+| Command | Type   | Default | Description                                            |
+|---------|--------|---------|--------------------------------------------------------|
+| buffer  | bool   | `true`  | Whether or not to buffer results from github           |
+| host    | string | empty   | What host to bind the application to                   |
+| port    | int    | `8080`  | What port to bind the application to                   |
+| token   | string | empty   | What github personal access token to use (RECOMMENDED) |
 
 To use any of the arguments, they are added by hyphen and the command name, such as...   
 `go run main.go -token=ExampleToken`
