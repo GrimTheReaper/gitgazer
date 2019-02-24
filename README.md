@@ -1,6 +1,6 @@
 # GitGazer
 
-A challenge entry for CenturyLink (1/3), written in Golang.
+A challenge entry for CenturyLink, written in Golang.
 
 ## Requirements:
 - Golang >1.8
@@ -37,3 +37,11 @@ Command Structure:
 
 To use any of the arguments, they are added by hyphen and the command name, such as...   
 `go run main.go -token=ExampleToken`
+
+## Routes:
+| Route | Method | Description |
+| ----- | ------ | ----------- |
+| `/api/v0/github/user/{username}/repositories` | `GET` | Gets the repositories | 
+| `/api/v0/github/user/{username}/followers`    | `GET` | Gets the followers    |    
+
+**FOR A LIVE VERSION, CONTACT ME BY EMAIL**
